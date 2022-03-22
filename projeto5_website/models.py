@@ -7,7 +7,7 @@ from django.db import models
 class Turma(models.Model):
   curso = models.CharField(max_length=50)
   ano = models.IntegerField()
-  semestre = models.IntegerField() #TODO: Semestre é um e
+  semestre = models.IntegerField() #TODO: Semestre
 
 
 
